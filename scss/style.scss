@@ -578,6 +578,9 @@
             width: 15px;
             height: 15px;
           }
+          &_text{
+            margin-left: 8px;
+          }
         }
       }
     }
@@ -870,11 +873,12 @@
         }
         &_products{
           background-color: #6E6E6E;
-          display: none;
+          height: 0;
+          transition: all 0.3s;
           &_item{
+            display: none;
             letter-spacing: 0.8px;
             color: #FFFFFF;
-            display: flex;
             justify-content: space-between;
             align-items: center;
             width: 90%;
@@ -883,14 +887,21 @@
             height: 64px;
           }
           &_border{
-            border: 1px solid #AEB0BA;
+            display: none;
+            border-bottom: 1px solid #AEB0BA;
           }
           &_skin{
             background-color: #4A4A4A;
-            display: none;
+            height: 0;
+            .second{
+              display: none;
+              color: #FFFFFF;
+            }
+            .second_on2{
+              display: block;
+            }
             li{
               letter-spacing: 0.8px;
-              color: #FFFFFF;
               display: flex;
               justify-content: space-between;
               align-items: center;
@@ -919,7 +930,7 @@
               }
             }
             &_border{
-              border: 1px solid #AEB0BA;
+              border-bottom: 1px solid #AEB0BA;
             }
           }
         }
@@ -929,12 +940,19 @@
       width: 90%;
       transition: all 0.3s;
     }
+    .menu_on{
+      height: 195px;
+    }
+    .menu_on2{
+      height: 386px;
+    }
     .first_on{
       display: flex;
     }
     .second_on{
-      display: block;
+      height: 192px;
     }
+    
     .background{
       width: 100vh;
       height: 100vh;
@@ -950,6 +968,9 @@
     }
     .rotate{
       transform:rotate(90deg);
+    }
+    .border_on{
+      display: block;
     }
   }
   .pc{
@@ -1315,6 +1336,11 @@
       background-color: #00C1BA;
       padding-top: 33px;
       padding-bottom: 26px;
+      transition: all 0.3s;
+      &:hover{
+        opacity: 0.5;
+        transition: all 0.3s;
+      }
       img{
         width: 22px;
         height: 18px;

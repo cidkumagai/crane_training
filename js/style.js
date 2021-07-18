@@ -84,20 +84,30 @@ $(function(){
   $('.background').click(function(){
     $(this).parent().find('.header_sp_menu').removeClass('menu_active');
     $(this).parent().find('.header_sp_menu_item').removeClass('first_on');
-    $(this).parent().find('.header_sp_menu_products').removeClass('second_on');
+    $(this).parent().find('.header_sp_menu_products').removeClass('menu_on');
+    $(this).parent().find('.header_sp_menu_products').removeClass('menu_on2');
+    $(this).parent().find('.header_sp_menu_products_item').removeClass('first_on');
+    $(this).parent().find('.header_sp_menu_products_border').removeClass('border_on');
     $(this).parent().find('.header_sp_menu_products_skin').removeClass('second_on');
+    $(this).parent().find('.second').removeClass('second_on2');
     $(this).removeClass('back_on');
     $(this).parent().find('.products').removeClass('rotate');
     $(this).parent().find('.skin').removeClass('rotate');
   });
   $('.products').click(function(){
-    $(this).parent().parent().find('.header_sp_menu_products').toggleClass('second_on');
+    $(this).parent().parent().find('.header_sp_menu_products').toggleClass('menu_on');
+    $(this).parent().parent().find('.header_sp_menu_products').removeClass('menu_on2');
+    $(this).parent().parent().find('.header_sp_menu_products_border').toggleClass('border_on');
+    $(this).parent().parent().find('.header_sp_menu_products_item').toggleClass('first_on');
     $(this).toggleClass('rotate');
     $(this).parent().parent().find('.skin').removeClass('rotate');
     $(this).parent().parent().find('.header_sp_menu_products_skin').removeClass('second_on');
+    $(this).parent().parent().find('.second').removeClass('second_on2');
   });
   $('.skin').click(function(){
     $(this).parent().parent().find('.header_sp_menu_products_skin').toggleClass('second_on');
+    $(this).parent().parent().parent().find('.header_sp_menu_products').toggleClass('menu_on2');
+    $(this).parent().parent().find('.second').toggleClass('second_on2');
     $(this).toggleClass('rotate');
   });
 });
