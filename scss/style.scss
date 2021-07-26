@@ -536,7 +536,6 @@
     padding-top: 100px;  
     position: relative;
     &_pic{
-      background-image: url(../img/flower.png);
       width: 100%;
       height: 449px;
       position: absolute;
@@ -547,7 +546,7 @@
       color: #FFFFFF;
       position: absolute;
       left: 40%;
-      top: 50%;
+      top: 15%;
       padding-top: 60px;
       z-index: 2;
     }
@@ -1096,6 +1095,7 @@
     .back_on{
       opacity: 0.29;
       display: block;
+      width: 100%;
     }
     .rotate{
       transform:rotate(90deg);
@@ -1323,6 +1323,25 @@
         margin-top: 40px;
         margin-bottom: 64px;
       }
+    }
+  }
+  .smell_top{
+    width: 100%;
+    height: 350px;
+    padding-top: 56px;  
+    position: relative;
+    &_pic{
+      width: 100%;
+      object-fit: contain;
+    }  
+    &_title{
+      font-size: 28px;
+      letter-spacing: 1.4px;
+      color: #FFFFFF;
+      position: absolute;
+      left: 15%;
+      top: 25%;
+      z-index: 2;
     }
   }
   .index_columns{
