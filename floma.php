@@ -1,211 +1,11 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title></title>
-    <link rel="icon" href="./img/favicon.ico">
-    <meta name="description" content="hataraku.life">
-    <link rel='stylesheet' href='https://unpkg.com/ress/dist/ress.min.css'>
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet"/>
-    <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel='stylesheet' href='css/style.min.css'>
-    <!-- JS -->
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/style.js"></script>
-    <!--------------------CSS----------->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
-    <!------------------------------------ > 
-
-    <!--------------------jQuery--------------> 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!---------------------->  
-
-    <!-------------------JS----------->  
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-    <!------------------------> 
-    
-  </head>
-  <body>
-    <header>
-      <div class="header_pc">
-        <img src="img/title.svg" class="title">
-        <div class="header_pc_menu">
-          <div class="header_pc_menu_item home">Home</div>
-          <div class="header_pc_menu_item pro">Products
-            <div class="promenu">
-              <div class="promenu_down">
-                <ul>
-                  <h1>Skin care</h1>
-                  <div class="promenu_down_item">
-                    <img src="img/cream.svg">
-                    <li>Hand Cream<p>ハンドクリーム</p></li>
-                  </div>
-                  <div class="promenu_down_item">
-                    <img src="img/cream (1).svg">
-                    <li>Face creamp <p>フェイスクリーム</p></li>
-                  </div>
-                  <div class="promenu_down_item">
-                    <img src="img/Outline.svg">
-                    <li>Skin oil<p>スキンオイル</p></li>
-                  </div>
-                </ul>
-                <ul>
-                  <h1>Aroma</h1>
-                  <div class="promenu_down_item">
-                    <img src="img/serum.svg">
-                    <li>Aroma Oil<p>アロマオイル</p></li>
-                  </div>
-                  <div class="promenu_down_item">
-                    <img src="img/aroma.svg">
-                    <li>Aroma pot<p>アロマポット</p></li>
-                  </div>
-                  <div class="promenu_down_item">
-                    <img src="img/aroma (1).svg">
-                    <li>Aroma Diffuser<p>アロマディフューザー</p></li>
-                  </div>
-                </ul>
-                <ul>
-                  <h1>Perfume</h1>
-                  <div class="promenu_down_item">
-                    <img src="img/givenchy.png">
-                    <li>GIVENCHY<p>ジバンシー</p></li>
-                  </div>
-                  <div class="promenu_down_item">
-                    <img src="img/chanel.png">
-                    <li>CHANEL<p>シャネル</p></li>
-                  </div>
-                  <div class="promenu_down_item">
-                    <img src="img/gucci.png">
-                    <li>GUCCI<p>グッチ</p></li>
-                  </div>
-                  <div class="promenu_down_item">
-                    <img src="img/polo.png">
-                    <li>POLO<p>ポロ</p></li>
-                  </div>
-                  <div class="promenu_down_item">
-                    <img src="img/lacoste.png">
-                    <li>LACOSTE<p>ラコステ</p></li>
-                  </div>
-                  <div class="promenu_down_item">
-                    <img src="img/bijan.png">
-                    <li>Bijan<p>ビジャン</p></li>
-                  </div>
-                </ul>
-                <ul>
-                  <h1>Book</h1>
-                  <div class="promenu_down_item">
-                    <img src="img/book.svg">
-                    <li>floma official book<p>フロマオフィシャルブック</p></li>
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="header_pc_menu_item news">News</div>
-          <div class="header_pc_menu_item about">About</div>
-          <img src="img/cart.svg" class="header_pc_menu_item cart"></div>
-        </div>
-      </div>
-      <div class="header_sp">
-        <div class="header_sp_hamburger">
-          <div class="header_sp_hamburger_menu top"></div>
-          <div class="header_sp_hamburger_menu middle"></div>
-          <div class="header_sp_hamburger_menu bottom"></div>
-        </div>
-        <img src="img/title.svg" class="header_sp_logo">
-        <img src="img/cart.svg" class="header_sp_cart">
-      </div>
-      <ul class="header_sp_menu">
-        <li class="header_sp_menu_item">
-          Home
-          <p>＞</p>
-        </li>
-        <div class="header_sp_menu_border"></div>
-        <li class="header_sp_menu_item">
-          Products
-          <p class="products">＞</p>
-        </li>
-        <div class="header_sp_menu_border"></div>
-        <ul class="header_sp_menu_products">
-          <li class="header_sp_menu_products_item">
-            Skin care
-            <p class="skin">＞</p>
-          </li>
-          <div class="header_sp_menu_products_border"></div>
-          <ul class="header_sp_menu_products_skin">
-            <div class="second">
-              <li>
-                <div class="header_sp_menu_products_skin_item">
-                  <img src="img/cream.svg" class="hand">
-                  <div class="header_sp_menu_products_skin_item_title">
-                    <h1>Hand Cream</h1>
-                    <h2>ハンドクリーム</h2>
-                  </div>
-                </div>
-                <p>＞</p>
-              </li>
-              <div class="header_sp_menu_products_skin_border"></div>
-              <li>
-                <div class="header_sp_menu_products_skin_item">
-                  <img src="img/cream (1).svg" class="face">
-                  <div class="header_sp_menu_products_skin_item_title">
-                    <h1>Face Cream</h1>
-                    <h2>フェイスクリーム</h2>
-                  </div>
-                </div>  
-                <p>＞</p>
-              </li>
-              <div class="header_sp_menu_products_skin_border"></div>
-              <li>
-                <div class="header_sp_menu_products_skin_item">
-                  <img src="img/Outline.svg" class="skin">
-                  <div class="header_sp_menu_products_skin_item_title">
-                    <h1>Skin Oil</h1>
-                    <h2>スキンオイル</h2>
-                  </div>
-                </div>
-                <p>＞</p>
-              </li>
-            </div>
-          </ul>
-          <li class="header_sp_menu_products_item">
-            Aroma
-            <p>＞</p>
-          </li>
-          <div class="header_sp_menu_products_border"></div>
-          <li class="header_sp_menu_products_item">
-            Perfume
-            <p>＞</p>
-          </li>
-          <div class="header_sp_menu_products_border"></div>
-        </ul>
-        <li class="header_sp_menu_item">
-          News
-          <p>＞</p>
-        </li>
-        <div class="header_sp_menu_border"></div>
-        <li class="header_sp_menu_item">
-          About
-          <p>＞</p>
-        </li>
-        <div class="header_sp_menu_border"></div>
-        <li class="header_sp_menu_item">
-          <div class="header_sp_menu_item_shop">
-            <img class="header_sp_menu_item_shop_cart" src="img/cart.svg">
-            ショッピングカート
-          </div>
-          <p>＞</p>
-        </li>
-      </ul>
-      <div class="background"></div>
-    </header>
+<?php
+$home_url = esc_url(home_url());
+$theme_url = get_template_directory_uri();
+?>
+<?php get_header();?>
     <div class="floma_top pc">
       <div class="floma_top_founded">
-        <img src="img/favorite.png">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/favorite.png">
         <h1 class="floma_top_founded_title">floma創業の物語</h1>
         <p class="floma_top_founded_text">フローマを創業する前、私は一般企業で営業として働いていました。<br> 寝る間も惜しみ、高いノルマを達成しようと、季節の移ろいさえ忘れ、気がついたら1年経過しているような生活でした。ある日、急に体が動かなくなり、出勤しようと家を出ると動悸が起きる体になっていました。<br> 仕事もままならなくなり、休職することになりました。仕事がすべてだった私は、どう日々を過ごしたら良いのかがわかりませんでした。<br> ふと、心配してくれた友人から、一輪の花とアロマオイルが届きました。その中には一通の手紙が。「心身が疲れているときは、考えないで、自然に身を委ねてみたら良いよ」と書かれていました。<br> 贈られてきた花をぼーっと見つめながら、アロマオイルの香り浸ることで、少しだけ、これまでの自分を労おうと思えました。私にとっては、香りが新な自分をスタートさせるために大切なものとなりました。</p>
       </div>
@@ -245,7 +45,7 @@
     </div>
     <div class="floma_top sp">
       <div class="floma_top_founded">
-        <img src="img/favorite1.png">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/favorite1.png">
         <h1 class="floma_top_founded_title">floma創業の物語</h1>
         <p class="floma_top_founded_text">フローマを創業する前、私は一般企業で営業として働いていました。<br>寝る間も惜しみ、高いノルマを達成しようと、季節の移ろいさえ忘れ、気がついたら1年経過しているような生活でした。ある日、急に体が動かなくなり、出勤しようと家を出ると動悸が起きる体になっていました。<br>仕事もままならなくなり、休職することになりました。仕事がすべてだった私は、どう日々を過ごしたら良いのかがわかりませんでした。<br>ふと、心配してくれた友人から、一輪の花とアロマオイルが届きました。その中には一通の手紙が。「心身が疲れているときは、考えないで、自然に身を委ねてみたら良いよ」と書かれていました。<br>贈られてきた花をぼーっと見つめながら、アロマオイルの香り浸ることで、少しだけ、これまでの自分を労おうと思えました。私にとっては、香りが新な自分をスタートさせるために大切なものとなりました。</p>
       </div>
@@ -288,34 +88,34 @@
         <h1 class="index_columns_title">香りを生み出す物語</h1>
         <ul class="index_columns_menu">
           <li class="index_columns_menu_item">
-            <img src="img/anshu-a-7n5_0j7b7Hg-unsplash-1.png">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/anshu-a-7n5_0j7b7Hg-unsplash-1.png">
             <h1 class="index_columns_menu_item_title">香りの楽しみ方について</h1>
             <p class="index_columns_menu_item_text">香りは人生を豊かにします。多種多様な香りを楽しむ方法をご紹介します。</p>
           </li>
           <li class="index_columns_menu_item">
-            <img src="img/anshu-a-7n5_0j7b7Hg-unsplash.png">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/anshu-a-7n5_0j7b7Hg-unsplash.png">
             <h1 class="index_columns_menu_item_title">香水を上手に纏う大人へ</h1>
             <p class="index_columns_menu_item_text">日々の生活、ビジネスシーン、休日...。シーンに合わせた香水を身に着けましょう。</p>
           </li>
           <li class="index_columns_menu_item">
-            <img src="img/anshu-a-7n5_0j7b7Hg-unsplash-2.png">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/anshu-a-7n5_0j7b7Hg-unsplash-2.png">
             <h1 class="index_columns_menu_item_title">私たちの物語</h1>
             <p class="index_columns_menu_item_text">「香りで人生を豊かに」をミッションにした、私たちの物語を読んでみませんか？</p>
           </li>
         </ul>
         <ul class="index_columns_menu">
           <li class="index_columns_menu_item">
-            <img src="img/anshu-a-7n5_0j7b7Hg-unsplash-3.png">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/anshu-a-7n5_0j7b7Hg-unsplash-3.png">
             <h1 class="index_columns_menu_item_title">正しい洗顔で素敵な1日を</h1>
             <p class="index_columns_menu_item_text">洗顔するとき、自分の好きな香りがする洗顔フォームで、一日の疲れをリセットしませんか？</p>
           </li>
           <li class="index_columns_menu_item">
-            <img src="img/anshu-a-7n5_0j7b7Hg-unsplash-4.png">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/anshu-a-7n5_0j7b7Hg-unsplash-4.png">
             <h1 class="index_columns_menu_item_title">アロマオイルで空間に彩りを</h1>
             <p class="index_columns_menu_item_text">リモートワークで部屋にいる時間が多くなった今こそ、アロマオイルを上手に活用しましょう。</p>
           </li>
           <li class="index_columns_menu_item">
-            <img src="img/anshu-a-7n5_0j7b7Hg-unsplash-5.png">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/anshu-a-7n5_0j7b7Hg-unsplash-5.png">
             <h1 class="index_columns_menu_item_title">商品を選定する専門家集団</h1>
             <p class="index_columns_menu_item_text">皆様にご提案している商品は、「香り」と「美容」の専門家たち。商品選びのこだわりを覗いてみませんか？</p>
           </li>
@@ -330,21 +130,21 @@
         <ul class="index_news_top_menu">
           <li class="index_news_top_menu_item">
             <div class="index_news_top_menu_item_sns">
-              <img src="img/Icon awesome-twitter-1.svg" class="index_news_top_menu_item_sns_twi">
-              <img src="img/Icon awesome-facebook-f-1.svg" class="index_news_top_menu_item_sns_fa">
-              <img src="img/Icon awesome-instagram.svg" class="index_news_top_menu_item_sns_in">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Icon awesome-twitter-1.svg" class="index_news_top_menu_item_sns_twi">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Icon awesome-facebook-f-1.svg" class="index_news_top_menu_item_sns_fa">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Icon awesome-instagram.svg" class="index_news_top_menu_item_sns_in">
             </div>
             <h1 class="index_news_top_menu_item_title">公式SNSアカウント</h1>
             <p class="index_news_top_menu_item_text">Twitter、facebook、Instagramの公式アカウントのご案内</p>
           </li>
           <li class="index_news_top_menu_item">
-            <img src="img/Icon feather-mail.svg" class="index_news_top_menu_item_mail">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Icon feather-mail.svg" class="index_news_top_menu_item_mail">
             <h1 class="index_news_top_menu_item_title">最新の情報をいち早く</h1>
             <p class="index_news_top_menu_item_text">最新のアイテムやニュース、メール会員限定のお得なセール情報などを配信しています</p>
             <a href="#" class="index_news_top_menu_item_btn">登録する</a>
           </li>
           <li class="index_news_top_menu_item">
-            <img src="img/Icon material-people.svg" class="index_news_top_menu_item_mail">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Icon material-people.svg" class="index_news_top_menu_item_mail">
             <h1 class="index_news_top_menu_item_title">flomaメンバー登録</h1>
             <p class="index_news_top_menu_item_text">購入アイテムの使い方や、保存方法などを気軽に質問できるコミュニティです</p>
             <a href="#" class="index_news_top_menu_item_btn">詳しく</a>
@@ -356,171 +156,68 @@
           <ul>
             <h1>Skin care</h1>
             <div class="index_news_brand_menu_item">
-              <img src="img/cream.svg">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/cream.svg">
               <li>Hand Cream<p>ハンドクリーム</p></li>
             </div>
             <div class="index_news_brand_menu_item">
-              <img src="img/cream (1).svg">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/cream (1).svg">
               <li>Face creamp <p>フェイスクリーム</p></li>
             </div>
             <div class="index_news_brand_menu_item">
-              <img src="img/Outline.svg">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Outline.svg">
               <li>Skin oil<p>スキンオイル</p></li>
             </div>
           </ul>
           <ul>
             <h1>Aroma</h1>
             <div class="index_news_brand_menu_item">
-              <img src="img/serum.svg">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/serum.svg">
               <li>Aroma Oil<p>アロマオイル</p></li>
             </div>
             <div class="index_news_brand_menu_item">
-              <img src="img/aroma.svg">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/aroma.svg">
               <li>Aroma pot<p>アロマポット</p></li>
             </div>
             <div class="index_news_brand_menu_item">
-              <img src="img/aroma (1).svg">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/aroma (1).svg">
               <li>Aroma Diffuser<p>アロマディフューザー</p></li>
             </div>
           </ul>
           <ul>
             <h1>Perfume</h1>
             <div class="index_news_brand_menu_item">
-              <img src="img/givenchy.png">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/givenchy.png">
               <li>GIVENCHY<p>ジバンシー</p></li>
             </div>
             <div class="index_news_brand_menu_item">
-              <img src="img/chanel.png">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/chanel.png">
               <li>CHANEL<p>シャネル</p></li>
             </div>
             <div class="index_news_brand_menu_item">
-              <img src="img/gucci.png">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/gucci.png">
               <li>GUCCI<p>グッチ</p></li>
             </div>
             <div class="index_news_brand_menu_item">
-              <img src="img/polo.png">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/polo.png">
               <li>POLO<p>ポロ</p></li>
             </div>
             <div class="index_news_brand_menu_item">
-              <img src="img/lacoste.png">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/lacoste.png">
               <li>LACOSTE<p>ラコステ</p></li>
             </div>
             <div class="index_news_brand_menu_item">
-              <img src="img/bijan.png">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/bijan.png">
               <li>Bijan<p>ビジャン</p></li>
             </div>
           </ul>
           <ul>
             <h1>Book</h1>
             <div class="index_news_brand_menu_item">
-              <img src="img/book.svg">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/book.svg">
               <li>floma official book<p>フロマオフィシャルブック</p></li>
             </div>
           </ul>
         </div>
       </div>
     </div>
-    <footer>
-      <div class="footer_pc">
-        <ul class="footer_pc_menu">
-          <li class="footer_pc_menu_item top">
-            <img src="img/black.svg" class="footer_pc_menu_item_pic">
-            <div class="footer_pc_menu_item_news">
-              <h1 class="footer_pc_menu_item_news_title">News</h1>
-              <p class="footer_pc_menu_item_news_text">flomaNeoシリーズの販売終了について</p>
-              <div class="footer_pc_menu_item_news_border"></div>
-              <p class="footer_pc_menu_item_news_text">配送料金改定について</p>
-              <div class="footer_pc_menu_item_news_border"></div>
-              <p class="footer_pc_menu_item_news_text">年末年始休業のお知らせ</p>
-              <div class="footer_pc_menu_item_news_border"></div>
-              <p class="footer_pc_menu_item_news_text">直営店のコロナ対策について</p>
-              <div class="footer_pc_menu_item_news_border"></div>
-              <p class="footer_pc_menu_item_news_text">ショッピングバック廃止のお知らせ</p>
-              <div class="footer_pc_menu_item_news_border"></div>
-              <p class="footer_pc_menu_item_news_text">経営体制見直しのお知らせ</p>
-              <div class="footer_pc_menu_item_news_border"></div>
-              <p class="footer_pc_menu_item_news_text">CHANELとの販売代理店契約について</p>
-              <div class="footer_pc_menu_item_news_border"></div>
-            </div>
-          </li>
-          <li class="footer_pc_menu_item">
-            <h1 class="footer_pc_menu_item_title">About</h1>
-            <div class="footer_pc_menu_item_border"></div>
-            <a href="floma.html" class="footer_pc_menu_item_text">flomaについて</a>
-            <p class="footer_pc_menu_item_text">わたしたちの物語</p>
-            <p class="footer_pc_menu_item_text">受賞歴</p>
-            <p class="footer_pc_menu_item_text">採用情報</p>
-            <h1 class="footer_pc_menu_item_title floma">floma members club</h1>
-            <div class="footer_pc_menu_item_border"></div>
-            <p class="footer_pc_menu_item_text">マイページ</p>
-            <p class="footer_pc_menu_item_text">メンバー登録</p>
-          </li>
-          <li class="footer_pc_menu_item">
-            <h1 class="footer_pc_menu_item_title">Shopping</h1>
-            <div class="footer_pc_menu_item_border"></div>
-            <p class="footer_pc_menu_item_text">ショッピングカート</p>
-            <p class="footer_pc_menu_item_text">購入履歴</p>
-            <p class="footer_pc_menu_item_text">ギフトサービス</p>
-            <h1 class="footer_pc_menu_item_title floma">店舗情報</h1>
-            <div class="footer_pc_menu_item_border"></div>
-            <p class="footer_pc_menu_item_text">表参道ヒルズ店（旗艦店）</p>
-            <p class="footer_pc_menu_item_text">博多天神店</p>
-          </li>
-        </ul>
-        <div class="footer_pc_logo">
-          <img src="img/title.svg" class="footer_pc_logo">
-        </div>
-        <p class="footer_pc_text">Copyright©floma Inc. All rights reserved</p>
-        <div class="footer_pc_share">
-          <div class="footer_pc_share_sns">
-            <img src="img/Icon awesome-twitter.svg" class="footer_pc_share_sns_t">
-            <img src="img/Icon awesome-facebook-f.svg" class="footer_pc_share_sns_f">
-            <img src="img/Icon awesome-instagram-1.svg" class="footer_pc_share_sns_i">
-          </div>
-          <div class="footer_pc_share_information">
-            <p class="footer_pc_share_information_text corp">企業情報</p>
-            <p class="footer_pc_share_information_text pri">プライバシーポリシー</p>
-            <p class="footer_pc_share_information_text person">個人情報に関する公表事項</p>
-            <p class="footer_pc_share_information_text terms">利用規約</p>
-            <p class="footer_pc_share_information_text commercial">特定商取引法に基づく表示</p>
-          </div>
-        </div>
-      </div>
-      <div class="footer_sp">
-        <div class="footer_sp_news">
-          <div class="footer_sp_news_menu">
-            <img src="img/Icon ionic-ios-information-circle.svg">
-            <p class="footer_sp_news_menu_text">flomaNeoシリーズの販売終了について</p>
-          </div>
-          <div class="footer_sp_news_menu">
-            <img src="img/Icon ionic-ios-information-circle.svg">
-            <p class="footer_sp_news_menu_text">配送料金改定について</p>
-          </div>
-          <div class="footer_sp_news_menu">
-            <img src="img/Icon ionic-ios-information-circle.svg">
-            <p class="footer_sp_news_menu_text">年末年始休業のお知らせ</p>
-          </div>
-        </div>
-        <div class="footer_sp_sns">
-          <img src="img/Icon awesome-twitter-1.svg" class="footer_sp_sns_icon">
-          <img src="img/Icon awesome-facebook-f-1.svg" class="footer_sp_sns_icon">
-          <img src="img/Icon awesome-instagram.svg" class="footer_sp_sns_icon">
-        </div>
-        <div class="footer_sp_border"></div>
-        <img src="img/title.svg" class="footer_sp_logo">
-        <div class="footer_sp_information">
-          <p class="footer_sp_information_text">企業情報</p>
-          <p class="footer_sp_information_text">プライバシーポリシー</p>
-          <p class="footer_sp_information_text">個人情報に関する公表事項</p>
-          <p class="footer_sp_information_text">利用規約</p>
-          <p class="footer_sp_information_text">特定商取引法に基づく表示</p>
-        </div>
-      </div>
-      <div class="footer_mail">
-        <img src="img/Icon feather-mail-1.svg">
-        <p class="footer_mail_text">メンバー限定セールや、最新情報をいち早くお届け</p>
-        <a class="footer_mail_btn" href="#">詳しく</a>
-      </div>
-    </footer>
-  </body>
-</html>
+<?php get_footer();?>
