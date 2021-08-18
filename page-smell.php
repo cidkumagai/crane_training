@@ -15,6 +15,9 @@ $theme_url = get_template_directory_uri();
     <div class="index_columns smell_column">
       <div class="index_columns_back smell">
         <ul class="index_columns_menu">
+           <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/flower1.svg" class="flower flower1">
+           <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/flower2.svg" class="flower flower2">
+           <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/flower1.svg" class="flower flower3">
           <li class="index_columns_menu_item">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/anshu-a-7n5_0j7b7Hg-unsplash-1.png">
             <h1 class="index_columns_menu_item_title">香りの楽しみ方について</h1>
