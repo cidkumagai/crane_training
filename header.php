@@ -17,6 +17,7 @@ $theme_url = get_template_directory_uri();
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/style.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/fade.js"></script>
     <!--------------------jQuery--------------> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!---------------------->      

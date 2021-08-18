@@ -136,17 +136,23 @@
         position: absolute;
         width: 100%;
         opacity: 0;
-        transition: all 3s;
-        animation-name: opa;
+        transition: all 5s;
+        animation-name: on;
       }
-      @keyframes opa {
+      @keyframes on {
         0% {
-          opacity: 0.6;
+          opacity: 0;
         }
-        30% {
-          opacity: 0.8;
+        20% {
+          opacity: 0.2;
+        }
+        40% {
+          opacity: 0.4;
         }
         60% {
+          opacity: 0.6;
+        }
+        80% {
           opacity: 0.8;
         }
         100% {
@@ -154,7 +160,36 @@
         }
       }
       .on{
+        animation-name: on;
+        transition: all 3s;
         opacity: 1;
+      }
+      @keyframes off {
+        0% {
+          opacity: 1;
+        }
+        20% {
+          opacity: 0.8;
+        }
+        40% {
+          opacity: 0.6;
+        }
+        60% {
+          opacity: 0.4;
+        }
+        80% {
+          opacity: 0.2;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+
+      .off{
+        transition: all 5s;
+        // animation-delay: 1s;
+        opacity: 0;
+        animation-name: off;
       }
       li{
         width: 100%;
@@ -622,6 +657,9 @@
       border-top: 1px solid #707070;
       opacity: 0.17;
     }
+  }
+  .smell_column{
+    padding-top: 0;
   }
   .index_news{
     &_top{

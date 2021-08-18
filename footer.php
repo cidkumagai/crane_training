@@ -28,8 +28,8 @@ $theme_url = get_template_directory_uri();
           <li class="footer_pc_menu_item">
             <h1 class="footer_pc_menu_item_title">About</h1>
             <div class="footer_pc_menu_item_border"></div>
-            <a href="<?php echo $theme_url; ?>floma.php" class="footer_pc_menu_item_text">flomaについて</a><br>
-            <a href="<?php echo $theme_url; ?>/smell.php" class="footer_pc_menu_item_text">わたしたちの物語</a><br>
+            <a href="<?php echo $theme_url; ?>/floma" class="footer_pc_menu_item_text">flomaについて</a><br>
+            <a href="<?php echo $theme_url; ?>/smell" class="footer_pc_menu_item_text">わたしたちの物語</a><br>
             <p class="footer_pc_menu_item_text">受賞歴</p>
             <p class="footer_pc_menu_item_text">採用情報</p>
             <h1 class="footer_pc_menu_item_title floma">floma members club</h1>

@@ -1,4 +1,5 @@
 <?php
+/* Template Name: smell */
 $home_url = esc_url(home_url());
 $theme_url = get_template_directory_uri();
 ?>
@@ -11,7 +12,7 @@ $theme_url = get_template_directory_uri();
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/flower1.png" class="smell_top_pic"></div>
       <h1 class="smell_top_title">香りを生み出す物語</h1>
     </div>
-    <div class="index_columns">
+    <div class="index_columns smell_column">
       <div class="index_columns_back smell">
         <ul class="index_columns_menu">
           <li class="index_columns_menu_item">
