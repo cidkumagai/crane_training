@@ -50,7 +50,7 @@ $theme_url = get_template_directory_uri();
             <img alt="画像4" src="<?php echo get_stylesheet_directory_uri(); ?>/img/img4.png" />
             <div class="index_top_pic_img4_text">
               <p class="index_top_pic_img4_text_new">読み物</p>
-              <h1 class="index_top_pic_img4_text_title">部屋で香りを楽しむ方法
+              <h1 class="index_top_pic_img4_text_title">部屋で香りを楽しむ作法
               </h1>
               <a href="#" class="index_top_pic_img4_text_btn">詳しく</a>
             </div>
