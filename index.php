@@ -92,7 +92,7 @@ $theme_url = get_template_directory_uri();
     <div class="index_top sp">
       <ul class="index_top_pic">
         <div class="element first on">
-          <li class="index_top_pic_img1 active">
+          <li class="index_top_pic_img1 active" style="display: block;">
             <img alt="画像1" src="<?php echo get_stylesheet_directory_uri(); ?>/img/laura-chouette-x-xEeWUfgdY-unsplash.png" />
             <div class="index_top_pic_img1_text">
               <p class="index_top_pic_img1_text_new">New Arrival</p>
