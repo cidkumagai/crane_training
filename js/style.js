@@ -6,21 +6,25 @@ $(function(){
   $('.white1').click(function(){
     $(this).prev().find('.index_top_pic_img1').fadeOut(1500);
     $(this).next().next().next().find('.index_top_pic_img2').fadeIn(1500);
-    $(this).removeClass('.active');
-    $('.black_left2').addClass('inversion');
     $(this).removeClass('arrow_on');
+    $(this).removeClass('right_on');
+    $(this).removeClass('inversion2');
+    $('.black_left2').addClass('inversion');
     $('.black_left2').addClass('arrow_on');
     $('.black_right2').addClass('arrow_on');
+    $('.black_right2').addClass('right_on');
   });
   $('.black_left2').click(function(){
     $('.first').find('.index_top_pic_img1').addClass('active');
     $('.second').removeClass('active');
     $('.second').find('.index_top_pic_img2').fadeOut(1500);
     $('.first').find('.index_top_pic_img1').fadeIn(1500);
-    $('.black_left2').removeClass('inversion');
+    $(this).removeClass('inversion');
     $(this).removeClass('arrow_on');
     $('.black_right2').removeClass('arrow_on');
+    $('.black_right2').removeClass('inversion2');
     $('.white1').addClass('arrow_on');
+    $('.white1').addClass('inversion2');
     $('.black_left2').removeClass('left_on');
   });
   $('.black_right2').click(function(){
@@ -28,17 +32,25 @@ $(function(){
     $('.third').find('.index_top_pic_img3').fadeIn(1500);
     $('.black_left2').removeClass('inversion');
     $(this).removeClass('arrow_on');
+    $(this).removeClass('right_on');
     $('.black_left2').removeClass('arrow_on');
+    $('.black_left3').addClass('inversion');
     $('.black_left3').addClass('arrow_on');
     $('.black_right3').addClass('arrow_on');
+    $('.black_right3').addClass('right_on');
     $('.black_left2').removeClass('left_on');
   });
   $('.black_left3').click(function(){
     $('.third').find('.index_top_pic_img3').fadeOut(1500);
     $('.second').find('.index_top_pic_img2').fadeIn(1500);
+    $(this).removeClass('inversion');
     $(this).removeClass('arrow_on');
+    $(this).removeClass('left_on');
     $('.black_right3').removeClass('arrow_on');
+    $('.black_right3').removeClass('right_on');
+    $('.black_right3').removeClass('inversion2');
     $('.black_left2').addClass('arrow_on');
+    $('.black_right2').addClass('inversion2');
     $('.black_left2').addClass('left_on');
     $('.black_right2').addClass('arrow_on');
   });
@@ -46,24 +58,35 @@ $(function(){
     $(this).next().find('.index_top_pic_img3').fadeOut(1500);
     $('.forth').find('.index_top_pic_img4').fadeIn(1500);
     $(this).removeClass('arrow_on');
+    $(this).removeClass('right_on');
+    $('.black_left3').removeClass('inversion');
     $('.black_left3').removeClass('arrow_on');
+    $('.white_left4').addClass('inversion');
     $('.white_left4').addClass('arrow_on');
     $('.white_right4').addClass('arrow_on');
+    $('.white_right4').addClass('right_on');
   });
   $('.white_left4').click(function(){
     $(this).next().next().find('.index_top_pic_img4').fadeOut(1500);
     $('.index_top_pic_img3').fadeIn(1500);
     $(this).removeClass('arrow_on');
+    $(this).removeClass('inversion');
+    $('.black_left3').addClass('left_on');
     $('.white_right4').removeClass('arrow_on');
+    $('.white_right4').removeClass('right_on');
     $('.black_left3').addClass('arrow_on');
     $('.black_right3').addClass('arrow_on');
+    $('.black_right3').addClass('inversion2');
   });
   $('.white_right4').click(function(){
     $('.forth').find('.index_top_pic_img4').fadeOut(1500);
     $('.first').find('.index_top_pic_img1').fadeIn(1500);
     $(this).removeClass('arrow_on');
+    $(this).removeClass('right_on');
     $('.white_left4').removeClass('arrow_on');
+    $('.white_left4').removeClass('inversion');
     $('.white1').addClass('arrow_on');
+    $('.white1').addClass('right_on');
   });
 });
 

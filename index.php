@@ -16,9 +16,9 @@ $theme_url = get_template_directory_uri();
             </div>
           </li>
         </div>
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/white-right.svg" class="white1 arrow_on">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/white-left.svg" class="white1 arrow_on right_on">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/black-right.svg" class="black_left2">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/black-right.svg" class="black_right2">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/black-left.svg" class="black_right2">
         <div class="element second">
           <li class="index_top_pic_img2">
             <img alt="画像2" src="<?php echo get_stylesheet_directory_uri(); ?>/img/img2.png" />
@@ -30,8 +30,8 @@ $theme_url = get_template_directory_uri();
             </div>
           </li>
         </div>
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/black-left.svg" class="black_left3">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/black-right.svg" class="black_right3">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/black-right.svg" class="black_left3">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/black-left.svg" class="black_right3">
         <div class="element third">
           <li class="index_top_pic_img3">
             <img alt="画像3" src="<?php echo get_stylesheet_directory_uri(); ?>/img/img3.png" />
@@ -43,8 +43,8 @@ $theme_url = get_template_directory_uri();
             </div>
           </li>
         </div>
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/white-left.svg" class="white_left4">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/white-right.svg" class="white_right4">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/white-right.svg" class="white_left4">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/white-left.svg" class="white_right4">
         <div class="element forth">
           <li class="index_top_pic_img4">
             <img alt="画像4" src="<?php echo get_stylesheet_directory_uri(); ?>/img/img4.png" />
@@ -102,8 +102,8 @@ $theme_url = get_template_directory_uri();
             </div>
           </li>
         </div>
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/white-left.svg" class="white_left1">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/white-right.svg" class="white_right1 arrow_on">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/white-right.svg" class="white_left1">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/white-left.svg" class="white_right1 arrow_on">
       </ul> 
       <div class="index_top_popular">
         <h1 class="index_top_popular_title">人気のアイテム</h1>
