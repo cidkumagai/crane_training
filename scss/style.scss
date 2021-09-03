@@ -13,7 +13,7 @@
 }
 @media screen and (min-width: 950px) {
   body{
-    font-family: 'Noto Sans';
+    font-family: 'Noto Sans JP';
   }
   .sp{
     display: none;
@@ -1004,7 +1004,7 @@
 
 @media screen and (max-width: 949px) {
   body{
-    font-family: 'Noto Sans';
+    font-family: 'Noto Sans JP';
   }
   header{
     .header_pc{
@@ -1057,6 +1057,7 @@
         position: fixed;
         top: 0;
         &_item{
+          font-family: 'Open Sans';
           letter-spacing: 0.8px;
           color: #6E6E6E;
           display: flex;
@@ -1216,6 +1217,7 @@
             margin-top: 56px;
           }
           &_title{
+            font-family: 'Open Sans';
             font-size: 32px;
             color: #ffffff;
             display: flex;
@@ -1283,6 +1285,7 @@
             height: 170px;
           }
           &_title{
+            font-family: 'Open Sans';
             letter-spacing: 1px;
             color: #707070;
             font-size: 20px;
@@ -1598,6 +1601,7 @@
           }
         }
         h1{
+          font-family: 'Open Sans';
           letter-spacing: 0.9px;
           color: #FFFFFF;
           font-size: 18px;
@@ -1614,11 +1618,13 @@
             object-fit: contain;
           }
           li{
+            font-family: 'Open Sans';
             font-size: 16px;
             letter-spacing: 0.8px;
             color: #FFFFFF;
           }
           p{
+            font-family: 'Open Sans JP';
             font-size: 12px;
             letter-spacing: 0.6px;
             color: #FFFFFF;
