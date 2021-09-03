@@ -87,7 +87,6 @@ $theme_url = get_template_directory_uri();
             <h2 class="index_top_popular_menu_item_subtitle">フェイスローション</h2>
           </li>
         </ul>
-        <div class="index_top_popular_border"></div>
       </div>
     </div>
     <div class="index_top sp">
