@@ -623,7 +623,7 @@
       margin-bottom: 74px;
     }
     &_menu{
-      margin-top: 41px;
+      // margin-top: 41px;
       list-style: none;
       display: flex;
       justify-content: center;
@@ -631,12 +631,13 @@
         width: 313px;
         color: #6e6e6e;
         letter-spacing: 1px;
-        margin-right: 20px;
+        // margin-right: 20px;
         img{
           width: 313px;
           height: 209px;
         }
         &_title{
+          vertical-align: top;
           margin-top: 25px;
           font-size: 20px;
         }
@@ -647,13 +648,19 @@
           letter-spacing: 0.7px;
         }
       }
+      &_item:nth-child(2){
+        margin: auto 20px auto;
+      }
+    }
+    &_menu:nth-child(2){
+      margin-top: 41px;
     }
     &_btn{
       width: 223px;
       height: 60px;
       border: 1px solid #707070;
       border-radius: 30px;
-      margin: 0 auto;
+      margin: 51px auto 64px;
       text-decoration: none;
       color: #707070;
       letter-spacing: 0.8px;
@@ -661,8 +668,6 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: 51px;
-      margin-bottom: 64px;
     }
     &_bottom_border{
       border-top: 1px solid #707070;
