@@ -623,7 +623,6 @@
       margin-bottom: 74px;
     }
     &_menu{
-      // margin-top: 41px;
       list-style: none;
       display: flex;
       justify-content: center;
@@ -631,13 +630,12 @@
         width: 313px;
         color: #6e6e6e;
         letter-spacing: 1px;
-        // margin-right: 20px;
         img{
           width: 313px;
           height: 209px;
+          vertical-align: top;
         }
         &_title{
-          vertical-align: top;
           margin-top: 25px;
           font-size: 20px;
         }
