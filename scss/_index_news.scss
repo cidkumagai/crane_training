@@ -1,0 +1,236 @@
+.index_news{
+  &_top{
+    &_title{
+      margin-top: 64px;
+      font-size: 38px;
+      color: #6e6e6e;
+      letter-spacing: 1.9px;
+      text-align: center;
+      @include mq-up('lg'){
+        margin-top: 44px;
+        font-size: 29px;
+        letter-spacing: 1.45px;
+      }
+    }
+    &_menu{
+      display: flex;
+      justify-content: center;
+      margin: 60px 0px 64px;
+      @include mq-up('lg'){
+        display: block;
+        margin: 0px auto;
+      }
+      &_item{
+        width: 255px;
+        list-style: none;
+        text-align: center;
+        margin-right: 35px;
+        @include mq-up('lg'){
+          width: 69%;
+          margin: 0 auto 68px;
+        }
+        &_sns{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          @include mq-up('lg'){
+            margin-top: 29px;
+          }
+          &_twi{
+            width: 32px;
+            height: 26px;
+            margin-right: 28px;
+          }
+          &_fa{
+            width: 20px;
+            height: 36px;
+            margin-right: 28px;
+          }
+          &_in{
+            width: 32px;
+            height: 32px;
+          }
+          @include mq-up('lg'){
+            img{
+              width: 35px;
+              height: 36px;
+            }
+          }
+        }
+        &_title{
+          margin-top: 22px;
+          font-size: 18px;
+          letter-spacing: 0.9px;
+          color: #6E6E6E;  
+          @include mq-up('lg'){
+            margin-top: 22px;
+            font-size: 18px;
+          }   
+        }
+        &_text{
+          margin-top: 11px;
+          letter-spacing: 0.6px;
+          color: #AEB0BA;
+          font-size: 12px;
+          @include mq-up('lg'){
+            font-size: 12px;
+          }
+        }
+        &_btn{
+          width: 141px;
+          height: 33px;
+          text-decoration: none;
+          border: 1px solid #707070;
+          border-radius: 30px;
+          letter-spacing: 0.7px;
+          color: #707070;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0 auto;
+          margin-top: 19px;
+          @include mq-up('lg'){
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  &_important{
+    background-color: #ff5e5e;
+    width: 100%;
+    height: 216px;
+    color: #ffffff;
+    letter-spacing: 0.8px;
+    @include mq-up('lg'){
+      height: 100%;
+    }
+    &_title{
+      text-align: left;
+      padding: 42px 0px 0px 24%;
+      font-size: 18px;
+      margin-bottom: 12px;
+      @include mq-up('lg'){
+        padding: 40px 0px 0px;
+        width: 90%;
+        margin: 0px auto 12px;
+        letter-spacing: 0.9px;
+      }
+    }
+    &_menu{
+      list-style-image: url("../img/Icon\ ionic-ios-information-circle.svg");
+      margin-left: 25%;
+      list-style-position: outside;
+      @include mq-up('lg'){
+        width: 90%;
+        margin: 0 auto;
+      }
+      &_item{
+        font-size: 16px;
+        margin-top: 6px;
+        line-height: 22px;
+        @include mq-up('lg'){
+          width: 90%;
+          letter-spacing: 0.8px;
+          color: #ffffff;
+          line-height: 22px;
+          margin: 0px auto 6px;
+        }
+        img{
+          margin-top: 5px;
+          width: 15px;
+          height: 15px;
+          @include mq-up('lg'){
+            margin-top: 0px;
+          }
+        }
+        @include mq-up('lg'){
+          &:last-child{
+            margin-top: 12px;
+            padding-bottom: 15px;
+          }
+        }
+      }
+    }
+  }
+  &_brand{
+    width: 100%;
+    height: 530px;
+    background-color: #6e6e6e;
+    cursor: default;
+    left: 0;
+    @include mq-up('lg'){
+      height: 100%;
+    }
+    &_menu{
+      display: flex;
+      justify-content: center;
+      @include mq-up('lg'){
+        display: block;
+      }
+      ul{
+        list-style: none;
+        padding-top: 60px;
+        margin-right: 30px;
+        @include mq-up('lg'){
+          width: 80%;
+          margin: 0 auto;
+        }
+        h1{
+          font-size: 16px;
+          color: #ffffff;
+          border-bottom: #ffffff 1px solid;
+          width: 210px;
+          padding-bottom: 5px;
+          font-family: 'Open Sans';
+          letter-spacing: 0.9px;
+          @include mq-up('lg'){
+            width: 100%;
+            font-size: 18px;
+            padding: 34px auto 0px;
+          }
+        }
+      }
+      @include mq-up('lg'){
+        ul:last-child{
+          padding: 0px 0px 44px 0px;
+          margin-top: 62px;
+        }
+      }
+      &_item{
+        text-decoration: none;
+        display: flex;
+        @include mq-up('lg'){
+          margin-top: 37px;
+        }
+        img {
+          width: 27px;
+          height: 25px;
+          margin-top: 22px;
+          object-fit: contain;
+          @include mq-up('lg'){
+            width: 26px;
+            height: 35px;
+            margin: 0px 35px 0px 0px; 
+          }
+        }
+        li{
+          color: #ffffff;
+          font-size: 16px;
+          margin: 17px 15px 0px 25px;
+          font-family: 'Open Sans';
+          letter-spacing: 0.8px;
+          @include mq-up('lg'){
+            margin: 0;
+          }
+          p{
+            font-size: 12px;
+            font-family: 'Open Sans JP';
+            letter-spacing: 0.6px;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}

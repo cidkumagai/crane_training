@@ -3,7 +3,7 @@ $home_url = esc_url(home_url());
 $theme_url = get_template_directory_uri();
 ?>
 <?php get_header();?>
-    <div class="index_top pc">
+    <div class="index_top">
       <ul class="index_top_pic">
         <div class="element first on">
           <li class="index_top_pic_img1 active">
@@ -90,54 +90,6 @@ $theme_url = get_template_directory_uri();
         </ul>
       </div>
     </div>
-    <!-- <div class="index_top sp">
-      <ul class="index_top_pic">
-        <div class="element first on">
-          <li class="index_top_pic_img1 active" style="display: block;">
-            <img alt="画像1" src="<?php echo get_stylesheet_directory_uri(); ?>/img/laura-chouette-x-xEeWUfgdY-unsplash.png" />
-            <div class="index_top_pic_img1_text">
-              <p class="index_top_pic_img1_text_new">New Arrival</p>
-              <h1 class="index_top_pic_img1_text_title">CHANEL N°5
-              </h1>
-              <a href="#" class="index_top_pic_img1_text_btn">詳しく</a>
-            </div>
-          </li>
-        </div>
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/white-right.svg" class="white_left1">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/white-left.svg" class="white_right1 arrow_on">
-      </ul> 
-      <div class="index_top_popular">
-        <h1 class="index_top_popular_title">人気のアイテム</h1>
-        <ul class="index_top_popular_menu">
-          <li class="index_top_popular_menu_item">
-            <img class="index_top_popular_menu_item_pic" src="<?php echo get_stylesheet_directory_uri(); ?>/img/hairmask.png">
-            <h1 class="index_top_popular_menu_item_title">Hair Mask</h1>
-            <h2 class="index_top_popular_menu_item_subtitle">ヘアーマスク</h2>
-          </li>
-          <li class="index_top_popular_menu_item">
-            <img class="index_top_popular_menu_item_pic" src="<?php echo get_stylesheet_directory_uri(); ?>/img/marcjacobs.png">
-            <h1 class="index_top_popular_menu_item_title">MARC JACOBS</h1>
-            <h2 class="index_top_popular_menu_item_subtitle">マークジェイコブス</h2>
-          </li>
-          <li class="index_top_popular_menu_item">
-            <img class="index_top_popular_menu_item_pic" src="<?php echo get_stylesheet_directory_uri(); ?>/img/aroma.png">
-            <h1 class="index_top_popular_menu_item_title">Aroma Diffuser</h1>
-            <h2 class="index_top_popular_menu_item_subtitle">アロマディフューザー</h2>
-          </li>
-          <li class="index_top_popular_menu_item">
-            <img class="index_top_popular_menu_item_pic" src="<?php echo get_stylesheet_directory_uri(); ?>/img/haircream.png">
-            <h1 class="index_top_popular_menu_item_title">Hair Cream</h1>
-            <h2 class="index_top_popular_menu_item_subtitle">ヘアークリーム</h2>
-          </li>
-          <li class="index_top_popular_menu_item">
-            <img class="index_top_popular_menu_item_pic" src="<?php echo get_stylesheet_directory_uri(); ?>/img/facelotion.png">
-            <h1 class="index_top_popular_menu_item_title">Face Lotion</h1>
-            <h2 class="index_top_popular_menu_item_subtitle">フェイスローション</h2>
-          </li>
-        </ul>
-        <div class="index_top_popular_border"></div>
-      </div>
-    </div> -->
     <div class="index_columns">
       <ul class="index_columns_menu">
         <li class="index_columns_menu_item">
@@ -207,20 +159,16 @@ $theme_url = get_template_directory_uri();
         <h1 class="index_news_important_title">重要なお知らせ</h1>
         <ul class="index_news_important_menu">
           <li class="index_news_important_menu_item">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Icon ionic-ios-information-circle.svg">
-            <p class="index_news_important_menu_item_text">台風19号による、配送遅延のお知らせ（2021年3月2日時点）</p>
+            台風19号による、配送遅延のお知らせ（2021年3月2日時点）
           </li>
           <li class="index_news_important_menu_item">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Icon ionic-ios-information-circle.svg">
-            <p class="index_news_important_menu_item_text">CHANNEL CHANCEの入荷をお待ちのお客様へ再入荷のお知らせ</p>
+            CHANNEL CHANCEの入荷をお待ちのお客様へ再入荷のお知らせ
           </li>
           <li class="index_news_important_menu_item">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Icon ionic-ios-information-circle.svg">
-            <p class="index_news_important_menu_item_text">アロマディフューザー flomaarr をお持ちのお客様へ重要なお知らせ</p>
+            アロマディフューザー flomaarr をお持ちのお客様へ重要なお知らせ
           </li>
           <li class="index_news_important_menu_item">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Icon ionic-ios-information-circle.svg">
-            <p class="index_news_important_menu_item_text">年末年始の注文受付、配送最終日についてのお知らせ</p>
+            年末年始の注文受付、配送最終日についてのお知らせ
           </li>
         </ul>
       </div>

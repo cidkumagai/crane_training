@@ -1,12 +1,29 @@
 // メディアクエリ定義
 $sizes: lg;  //冒頭に使うサイズを明記するとわかりやすい
 $breakpoint-up: ( 
-  'lg': 'screen and (min-width: 961px)',
+  'lg': 'screen and (max-width: 961px)',
 ) !default;
 
 //mixinを定義（初期値はmd）
 @mixin mq-up($breakpoint: lg) {
   @media #{map-get($breakpoint-up, $breakpoint)} {
     @content;
+  }
+}
+
+body{
+  font-family: 'Noto Sans JP';
+}
+.sp{
+  display: none;
+  @include mq-up('lg'){
+    display: block;
+  }
+}
+
+.pc{
+  display: block;
+  @include mq-up('lg'){
+    display: none;
   }
 }
